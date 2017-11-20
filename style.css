@@ -1,0 +1,45 @@
+body {
+    background-color: lightblue;
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+    transition: 0.2s;
+    background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.mid {
+width: 785px;
+height: 333px;
+border: solid 1px #c3c3c3;
+border-radius: 8px;
+margin: auto;
+padding: 10px;
+margin-top: 20px;
+text-align: center;
+background-color: rgba(247, 247, 247, 0.93);
+}
+#show_opdracht {
+font-size: 40px;
+}
+#team_selector {
+background-color: initial;
+border:0px;
+padding: 0;
+width: 805px;
+overflow: hidden;
+}
+.mid_team_selector:first-child {
+margin-left: 0;
+}
+.mid_team_selector {
+width: calc(50% - 5px);
+height: 100%;
+float: left;
+margin-left: 10px;
+background-color: rgba(247, 247, 247, 0.93);
+}
+.mid_team_selector>img {
+width: 210px;
+height: 210px;
+margin-top: 56px;
+}
